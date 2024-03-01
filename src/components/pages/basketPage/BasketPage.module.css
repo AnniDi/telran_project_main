@@ -1,0 +1,81 @@
+.basketContainer {
+    padding: 0px 40px;
+}
+
+.basketTitleBtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+.basketTitleBtn h2 {
+    margin-right: 32px;
+    white-space: nowrap;
+}
+
+.shoppingCart {
+    color: #282828;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.basketTitleBtn hr {
+    border-bottom: 1px solid #DDDDDD;
+    width: 100%;
+    margin: 19px 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.formCardsContainer {
+    margin-bottom: 60px;
+    display: flex;
+    gap: 32px;
+}
+
+@media (max-width: 1140px) {
+
+    .formCardsContainer {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .shoppingCart {
+        font-size: 56px;
+    }
+
+}
+
+@media (max-width: 690px) {
+    .basketTitleBtn h2 {
+        white-space: normal;
+    }
+
+}
+
+@media (max-width: 550px) {
+    .basketTitleBtn hr {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .shoppingCart {
+        font-size: 48px;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .shoppingCart {
+        font-size: 40px;
+    }
+
+}

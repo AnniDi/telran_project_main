@@ -1,0 +1,225 @@
+.productsCardsContainer {
+    display: flex;
+    border-radius: 12px;
+    border: 1px solid #DDD;
+}
+
+.containerBasket {
+    max-height: 690px;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.cardContainerBasket {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.IncrDecrCounterBasket {
+    border: 1px solid #DDD;
+    border-radius: 6px;
+    display: flex;
+    margin-right: 32px;
+}
+
+.counterBasket {
+    color: #282828;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    padding: 16px 44px;
+    width: 100px;
+}
+
+.counterPriceBox {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.incrBasket {
+    display: flex;
+    width: 58px;
+    height: 58px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #DDD;
+    padding: 17px;
+    cursor: pointer;
+}
+
+.decrBasket {
+    display: flex;
+    width: 58px;
+    height: 58px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #DDD;
+    padding: 17px;
+    cursor: pointer;
+}
+
+.titleClouseBox {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.productImg {
+    height: 215px;
+    max-width: 200px;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.clouseBtn {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.productDiscount {
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.productInfo {
+    overflow: hidden;
+    color: #282828;
+    text-overflow: ellipsis;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.productPrice {
+    color: #8B8B8B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    text-decoration-line: line-through;
+    padding-top: 16px;
+}
+
+.productDiscontPrice {
+    color: #282828;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    margin-right: 16px;
+}
+
+@media (max-width: 1270px) {
+    .IncrDecrCounterBasket {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1190px) {
+    .containerBasket {
+        max-height: 706px;
+    }
+}
+
+
+@media (max-width: 1140px) {
+    .containerBasket {
+        max-height: 698px;
+    }
+}
+
+@media (max-width: 688px) {
+    .productDiscount {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 594px) {
+    .containerBasket {
+        max-height: 702px;
+    }
+}
+
+@media (max-width: 590px) {
+    .containerBasket {
+        max-height: 728px;
+    }
+
+}
+
+@media (max-width: 560px) {
+    .containerBasket {
+        max-height: 754px;
+    }
+}
+
+@media (max-width: 550px) {
+    .containerBasket {
+        max-height: 1180px;
+        margin-bottom: 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .productsCardsContainer {
+        flex-wrap: wrap;
+    }
+
+    .cardContainerBasket {
+        max-width: 372px;
+    }
+
+    .productImg {
+        height: 370px;
+        max-width: 100%;
+        border-radius: 12px 12px 0px 0px;
+    }
+}
+
+@media (max-width: 451px) {
+    .containerBasket {
+        max-height: 1170px;
+    }
+}
+
+@media (max-width: 446px) {
+    .containerBasket {
+        max-height: 1152px;
+    }
+}
+
+@media (max-width: 437px) {
+    .containerBasket {
+        max-height: 1134px;
+    }
+}
+
+@media (max-width: 427px) {
+    .containerBasket {
+        max-height: 1116px;
+    }
+}
+
+@media (max-width: 418px) {
+    .containerBasket {
+        max-height: 1098px;
+    }
+}

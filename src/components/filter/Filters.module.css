@@ -1,0 +1,116 @@
+.filterInputsBox {
+    display: flex;
+    margin-bottom: 40px;
+    padding: 0px 40px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.labelPrice {
+    color: #282828;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%;
+    margin-right: 16px;
+}
+
+.labelSelect {
+    color: #282828;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%;
+    margin-right: 16px;
+    padding-bottom: 10px;
+}
+
+.priceFromToBox {
+    display: flex;
+}
+
+.discountCheckboxBox {
+    display: flex;
+}
+
+.inputsFrom {
+    max-height: 36px;
+    max-width: 112px;
+    padding: 8px 16px;
+    margin-right: 16px;
+    border-radius: 6px;
+    border: 1px solid #DDD;
+    outline: none;
+}
+
+.inputsTo {
+    max-height: 36px;
+    max-width: 112px;
+    padding: 8px 16px;
+    margin-right: 40px;
+    border-radius: 6px;
+    border: 1px solid #DDD;
+    outline: none;
+}
+
+.inputCheckbox {
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    margin-right: 40px;
+    border-radius: 6px;
+    border: 1px solid #DDD;
+    background: #393;
+}
+
+.inputCheckbox {
+    cursor: pointer;
+    width: 36px;
+    margin-right: 40px;
+    border-radius: 6px;
+    border: 1px solid #DDD;
+    background: none;
+    -webkit-appearance: none;
+    position: relative;
+}
+
+.inputCheckbox::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background: url('./../../assets/images/checkBox.png') center/contain no-repeat;
+}
+
+.inputCheckbox:checked::before {
+    display: block;
+}
+
+.inputCheckbox:checked {
+    background: #4CAF50;
+
+}
+
+@media (max-width: 400px) {
+    .labelPrice {
+        font-size: 16px;
+    }
+
+    .labelSelect {
+        font-size: 16px;
+    }
+
+    .inputsFrom {
+        max-width: 80px;
+    }
+
+    .inputsTo {
+        max-width: 80px;
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,138 @@
+h1 {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    margin-bottom: 40px;
+}
+
+.mainGardenProducts {
+    background-image: url(../../../assets/images/main_img.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.guideContent {
+    padding: 80px 40px 308px;
+}
+
+.categoriesTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 40px 40px;
+}
+
+.categoriesTitle h2 {
+    color: #282828;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    margin-right: 32px;
+}
+
+.categoriesTitle hr {
+    border-bottom: 1px solid #DDDDDD;
+    width: 100%;
+    margin: 19px 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 90px;
+    }
+
+    .guideContent {
+        padding: 60px 20px 218px;
+    }
+}
+
+@media (max-width: 936px) {
+    h1 {
+        font-size: 72px;
+    }
+
+    .guideContent {
+        padding: 60px 20px 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 68px;
+    }
+
+    .guideContent {
+        padding: 60px 20px 424px;
+    }
+
+    .categoriesTitle h2 {
+        font-size: 56px;
+    }
+}
+
+@media (max-width: 581px) {
+    .categoriesTitle h2 {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    .guideContent {
+        padding: 60px 20px 286px;
+    }
+
+    .categoriesTitle h2 {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 475px) {
+    .categoriesContainer {
+        position: relative;
+    }
+
+    .mainLinkButtonContainer {
+        position: absolute;
+        bottom: -40px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .categoriesTitle hr {
+        display: none;
+    }
+
+    .categoriesTitle h2 {
+        margin: auto;
+    }
+}
+
+
+
+
+@media (max-width: 360px) {
+    h1 {
+        font-size: 52px;
+    }
+
+    .guideContent {
+        padding: 50px 20px 322px;
+    }
+
+    .categoriesTitle h2 {
+        font-size: 40px;
+    }
+}

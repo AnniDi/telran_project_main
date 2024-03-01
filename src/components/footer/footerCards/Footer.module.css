@@ -1,0 +1,65 @@
+.container {
+    padding: 0px 40px;
+    display: grid;
+    grid-template-columns: 59% auto;
+    gap: 32px;
+}
+
+.container p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    color: #282828;
+}
+
+.container span {
+    color: #8B8B8B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.img {
+    display: flex;
+    gap: 16px;
+}
+
+.card {
+    padding: 32px;
+    background-color: #F1F3F4;
+    border-radius: 12px;
+    display: grid;
+    gap: 16px;
+}
+
+@media (max-width: 575px) {
+    .container {
+        grid-template-columns: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        grid-template-columns: auto;
+    }
+
+    .container span {
+        font-size: 18px;
+    }
+
+    .container p {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .container {
+        justify-content: center;
+    }
+
+}

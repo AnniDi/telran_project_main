@@ -1,0 +1,54 @@
+.CategoriesItemContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(272px, 1fr));
+    justify-items: center;
+    justify-content: center;
+    margin: 0px 40px 80px;
+}
+
+.categoriesCard {
+    margin-bottom: 24px;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.categoryInfo {
+    color: #282828;
+    left: 200px;
+    bottom: 40px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.categoriesImg {
+    width: 259px;
+    height: 250px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+}
+
+@media (max-width: 1000px) {
+    .CategoriesItemContainer {
+        gap: 20px;
+    }
+    .categoriesImg {
+        width: 290px;
+        height: 290px;
+    }
+}
+
+@media (max-width: 768px) {
+    .CategoriesItemContainer {
+        gap: 0px;
+    }
+    .categoriesImg {
+        width: 250px;
+        height: 250px;
+    }
+}
